@@ -29,8 +29,28 @@ const questions = [
       type: 'input',
       name: 'contribution',
       message: 'How can someone contribute to this project?'
-    }
-    
+    },
+    {
+      type: 'input',
+      name: 'test',
+      message: 'How can this project be tested?'
+    },
+  {
+    type: 'list',
+    message: 'What license does your project have?',
+    name: 'licenses',
+    choices: ['MIT', 'Apache', 'Other']
+  },
+  {
+    type: 'input',
+    name: 'github',
+    message: 'What is your Github username?'
+  },
+  {
+    type: 'input',
+    name: 'email',
+    message: 'What is your email?'
+  },
   ];
 
 // TODO: Create a function to write README file
