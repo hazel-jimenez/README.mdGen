@@ -24,6 +24,11 @@ const questions = [
       type: 'input',
       name: 'usage',
       message: 'How do you use your project?'
+    },
+    {
+      type: 'input',
+      name: 'contribution',
+      message: 'How can someone contribute to this project?'
     }
     
   ];
